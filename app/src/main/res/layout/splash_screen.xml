@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-20dp"
+        android:scaleX="1.5"
+        android:scaleY="1.7"
+        android:src="@drawable/logo1"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="150dp"
+        android:text="Basic Banking System"
+        android:textAllCaps="false"
+        android:textColor="#F4E240"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:fontFamily="@font/aclonica"></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp">
+
+        <TextView
+            android:id="@+id/designed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed by "
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="invisible"></TextView>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snehal Patil"
+            android:textColor="#EDDC3F"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="invisible"></TextView>
+    </LinearLayout>
+
+</RelativeLayout>
